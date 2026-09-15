@@ -1,11 +1,8 @@
-# Red Interurbana TS Ibarra · v1.4.2
+# Red Interurbana TS Ibarra — v1.5
 
-Versión correctiva de actualización PWA.
+Versión estable sin Asistente de Red. Mantiene procesamiento local del KMZ, geometrías completas, rutas, nodos, mangas, GPS del usuario, cartografía offline, búsqueda, filtros, detalle de rutas y actualización local del KMZ.
 
-## Cambios
-- Corrige la versión visible del encabezado a v1.4.2.
-- Cambia el Service Worker para evitar que un `index.html` antiguo quede retenido.
-- Fuerza comprobación del nuevo Service Worker sin usar caché HTTP.
-- Recarga automáticamente una vez cuando toma control la nueva versión.
-- Unifica la caché de cartografía offline en `red-ts-map-tiles-v142`.
-- Mantiene la corrección del Asistente de Red para consultar el KMZ ya procesado.
+## Publicación
+Suba todos los archivos a la raíz del repositorio GitHub Pages reemplazando la versión anterior.
+
+Commit recomendado: `Elimina Asistente de Red y consolida versión estable - v1.5`
